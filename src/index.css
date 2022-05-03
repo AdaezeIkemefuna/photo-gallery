@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+:root{
+  --primary: #efb6b2;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 500px;
+  height: 350px;
+}
+
+.App {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #dfdfdf;
+}
+
+.card{
+  max-width: fit-content;
+  margin: 2rem auto;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.create{
+  height: 100vh;
+}
+
+form{
+  margin: 0 auto;
+}
+
+label, label span {
+  text-align: left;
+  display: block;
+  margin: 6px 0;
+}
+input {
+  padding: 6px;
+  margin-bottom: 12px;
+}
+button {
+  background: #772eff;
+  color: #fff;
+  border: 0;
+  padding: 6px 8px;
+
 }
